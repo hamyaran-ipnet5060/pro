@@ -47,7 +47,7 @@
 </head>
 <body>
     <div class="container">
-       <center> <img src="https://myc.freehost.io/ip-banner.jpg" alt="banner" width="480" class="img-fluid mb-3" style="border-radius:25px 0 25px 25px;"></center>
+       <center> <img src="https://hamyaran.net/ipx/ip-banner.jpg" alt="banner" width="480" class="img-fluid mb-3" style="border-radius:25px 0 25px 25px;"></center>
 
         <p id="generated-number" class="text-center mb-4"></p>
 
@@ -69,7 +69,7 @@
     <div class="row gy-2">
         <div class="col-md-4">
             <div class="d-flex flex-row-reverse align-items-center border p-1">
-                <img src="https://myc.freehost.io/android.jpg" alt="لوگو اندروید" class="img-fluid" style="width: 60px; height: auto;">
+                <img src="https://hamyaran.net/ipx/android.jpg" alt="لوگو اندروید" class="img-fluid" style="width: 60px; height: auto;">
                 <div class="content me-2">
                     <h6 class="mb-1">خرید اشتراک برای اندروید</h6>
                     <p class="text-muted small mb-0">اختصاصی، نامحدود، آپ‌تایم بالا</p>
@@ -78,7 +78,7 @@
         </div>
         <div class="col-md-4">
             <div class="d-flex flex-row-reverse align-items-center border p-1">
-                <img src="https://myc.freehost.io/iphone.jpg" alt="لوگو آیفون" class="img-fluid" style="width: 60px; height: auto;">
+                <img src="https://hamyaran.net/ipx/iphone.jpg" alt="لوگو آیفون" class="img-fluid" style="width: 60px; height: auto;">
                 <div class="content me-2">
                     <h6 class="mb-1">خرید اشتراک برای آیفون</h6>
                     <p class="text-muted small mb-0">پرسرعت، پایدار، بدون قطعی</p>
@@ -87,7 +87,7 @@
         </div>
         <div class="col-md-4">
             <div class="d-flex flex-row-reverse align-items-center border p-1">
-                <img src="https://myc.freehost.io/windows.jpg" alt="لوگو ویندوز" class="img-fluid" style="width: 60px; height: auto;">
+                <img src="https://hamyaran.net/ipx/windows.jpg" alt="لوگو ویندوز" class="img-fluid" style="width: 60px; height: auto;">
                 <div class="content me-2">
                     <h6 class="mb-1">خرید اشتراک برای ویندوز</h6>
                     <p class="text-muted small mb-0">نصب آسان، پرسرعت، بدون قطعی</p>
@@ -124,7 +124,7 @@
                 }
 
                 // ارسال درخواست به سرور و دریافت لینک
-                fetch("https://myc.freehost.io?getLink=true")
+                fetch("https://hamyaran.net/ipx?getLink=true")
                     .then(response => {
                         if (!response.ok) {
                             throw new Error("Failed to fetch the link from the server.");
