@@ -1,7 +1,7 @@
   body {
             font-family: Vazirmatn, sans-serif;
             background-color: #f4f4f4;
-            padding: 20px;
+            padding: 0 20px;
         }
         .container {
             max-width: 900px;
@@ -9,7 +9,14 @@
             direction: rtl;
         }
 		
-		h1,h2 {font-size: 1rem;}
+	h1 {
+    	background: #4eab9d;
+    	line-height: 50px;
+    	text-align: center;
+    	color: #FFF;
+    	border-radius: 0 0 20px 20px;	
+	}
+	h1,h2 {font-size: 1rem;}
         p{text-align: justify; color: var(--bs-secondary-color) !important; font-size:0.86em;}
         .content h3 {
             color: #333;
