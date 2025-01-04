@@ -1,0 +1,61 @@
+  body {
+            font-family: Vazirmatn, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            direction: rtl;
+        }
+		
+		h1,h2 {font-size: 1rem;}
+        p{text-align: justify; color: var(--bs-secondary-color) !important; font-size:0.86em;}
+        .content h3 {
+            color: #333;
+        }
+        .content p {
+            color: #777;
+	    text-align:right;
+	    font-size: 0.86em;	
+        }
+        .device{padding: 5px 0 5px 0 !important;}
+        .device div{justify-content: space-between !important;}
+		
+        .row>* { margin-top: 0 !important; }
+        .box {
+            border: 1px solid #ddd;
+            background-color: white;
+            overflow: hidden;
+        }
+        .box img {
+            width: 100%;
+        }
+        button#verify-btn{
+            float: left;
+        }
+        .radius{border-radius: 20px;}
+        .content {
+            padding: 15px;
+        }
+        
+        
+        .infobox { text-align: center; padding:15px; margin-bottom: 10px;}
+        .infobox ul {
+            padding: 20px;
+            margin: 0;
+            text-align: right;
+        }
+        .infobox li {
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        // <uniquifier>: Use a unique and descriptive class name
+        // <weight>: Use a value from 100 to 900
+
+        .vazirmatn-<uniquifier> {
+          font-family: "Vazirmatn", sans-serif;
+          font-optical-sizing: auto;
+          font-weight: <weight>;
+          font-style: normal;
+}
