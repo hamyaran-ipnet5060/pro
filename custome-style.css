@@ -42,6 +42,7 @@
             float: left;
         }
         .radius{border-radius: 20px;}
+		.radius15{border-radius: 15px;}
         .content {
             padding: 15px;
         }
