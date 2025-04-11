@@ -117,10 +117,10 @@
 }
 .original-price {
    text-decoration: line-through;
-    color: #3b3b3b;
+    color: #ffffff;
     margin-left: 5px;
     font-size: 0.8em;
-    background: #ffffff;
+    background: #34c7cf;
     padding: 5px;
     border-radius: 25px;
 }
