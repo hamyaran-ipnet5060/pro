@@ -44,7 +44,7 @@
         .radius{border-radius: 20px;}
 		.radius15{border-radius: 15px;}
         .content {
-            padding: 15px;
+            padding: 5px;
         }
         
         
@@ -115,3 +115,20 @@
     transform: rotate(15deg);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
+.original-price {
+   text-decoration: line-through;
+    color: #3b3b3b;
+    margin-left: 5px;
+    font-size: 0.8em;
+    background: #ffffff;
+    padding: 5px;
+    border-radius: 25px;
+}
+.toman-icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  fill: currentColor; /* یا رنگ دلخواه مثل: #333 */
+  margin-right: 4px;
+}
+.hidden{display:none;}
