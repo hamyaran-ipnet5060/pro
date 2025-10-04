@@ -139,3 +139,7 @@ code{
 	font-family: inherit;
 	font-size: 12px;
 }
+code.cur{
+background: #34c7cf !important;
+color: #FFF !important;
+}
