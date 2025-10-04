@@ -132,3 +132,8 @@
   margin-right: 4px;
 }
 .hidden{display:none;}
+code{
+	background: #FFF;
+    padding: 2px 10px;
+    border-radius: 7px;
+}
