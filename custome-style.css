@@ -217,3 +217,41 @@ code.cur {
     margin-bottom: 10px;
     padding: 20px;
 }
+/* 🟦 فوتر */
+.footer-custom {
+    background-color: #34c7cf;
+    color: #fff;
+    border-radius: 25px 25px 0 0;
+    box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer-custom h5 {
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+.footer-custom a {
+    color: #fff;
+    text-decoration: none;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.footer-custom a:hover {
+    opacity: 0.8;
+}
+
+.footer-links a {
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* 📱 حالت موبایل */
+@media (max-width: 576px) {
+    .footer-custom {
+        border-radius: 15px 15px 0 0;
+        padding: 20px 10px;
+    }
+}
