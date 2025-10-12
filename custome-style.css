@@ -92,7 +92,7 @@ button#verify-btn {
 }
 
 /* 🟢 کلاس‌های عمومی */
-.radius { border-radius: 20px; }
+.radius { border-radius: 20px 0 20px 20px; }
 .radius15 { border-radius: 15px; }
 
 .content {
